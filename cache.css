@@ -135,7 +135,7 @@ form{
   
   #cc{
     display: block;
-    background-image: url(../images/bg-card-front.png);
+    background-image: url(./images/bg-card-front.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 447px;
