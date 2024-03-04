@@ -117,7 +117,7 @@ form{
   header{
     height: 15rem;
     width: 100%;
-    background-image: url("/images/bg-main-mobile.png");
+    background-image: url(./images/bg-main-mobile.png);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -135,7 +135,7 @@ form{
   
   #cc{
     display: block;
-    background-image: url("../images/bg-card-front.png");
+    background-image: url(../images/bg-card-front.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 447px;
@@ -149,7 +149,7 @@ form{
     border-radius: 10px;
   }
   #load-am{
-    background-image: url("../images/bg-card-back.png");
+    background-image: url(./images/bg-card-back.png);
     background-size: contain;
     background-repeat: no-repeat;
     max-width: 100%;
@@ -258,7 +258,7 @@ form{
 header{
   height: 15rem;
   width: 100%;
-  background-image: url("/images/bg-main-mobile.png");
+  background-image: url(./images/bg-main-mobile.png);
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
@@ -377,7 +377,7 @@ header{
     min-height: 800px;
     max-height: 900px;
     width: 27rem;
-    background-image: url("/images/bg-main-desktop.png");
+    background-image: url(./images/bg-main-desktop.png);
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -424,7 +424,7 @@ img{
 @media (min-width:1330px) {
 header{
   width: 29rem;
-  background-image: url("/images/bg-main-desktop.png");
+  background-image: url(./images/bg-main-desktop.png);
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
