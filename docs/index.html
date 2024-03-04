@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+   <title>Frontend Mentor | Interactive card details form</title>
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="cache.css">
+</head>
+<body>
+
+  <!-- 1st Half -->
+  <header>
+    <section id="index">
+      <!-- front card -->
+      <div id="cc">
+        <img id="negl" class="topg" src="\images\card-logo.svg">
+         <h1 id="cc-numbers" class="topg">
+             0000 0000 0000 0000
+         </h1>
+     <div id="cc-name" class="topg">
+      <span id="name-output">JANE APPLESEED </span>
+      <span id="date001">00</span>
+      <span id="divider">/</span>
+      <span id="date002">00</span>
+    </div>
+  </div>
+    <div id="load-am">
+    <div class="topg" id="cvc-shii">
+      000
+    </div>
+   </div>
+   </section>
+  </header>
+
+  <!-- 2nd Half  -->
+   <div id="scnd">
+    <form id="form" name="card-details">
+      <div class="contain">
+      <div class="tits">
+        CARDHOLDER NAME
+      </div>
+      <input id="name-input" type="text" class="birkins" placeholder="eg. Jane Appleseed" maxlength="16">
+      <div id="err001"> Can't be blank bro!
+      </div>
+    </div>
+    <div class="contain">
+      <DIV class="tits">
+        CARD NUMBER
+      </DIV>
+      <input id="numbers-input" type="text" class="birkins" maxlength="16" aria-placeholder="Put in your credit card-number here" placeholder="eg. 1234 5678 9123 0000 " >
+      <div id="err002">
+      </div>
+    </div>
+    <div class="contain">
+      <div class="tits">
+        EXP. DATE (MM/YY) <span id="minor"> CVC</span>
+      </div>
+      <!-- minis -->
+      <section class="box">
+        <input id="mini001" type="number" placeholder="MM" max="2">
+        <input id="mini002" type="number" placeholder="YY" max="2">
+        <input id="mini003" type="number" placeholder="eg. 123" max="3">
+        <span id="err003b"> Can't be blank!</span>
+      </section>
+      <div id="err">
+        <span id="err003a">Can't be blank!</span>
+      </div>
+    </div>
+      <input type="submit" class="submit" id="submit001" value="Confirm">
+    </form>
+    <!-- sucess msg -->
+  <div id="sxcs">
+    <img id="good" src="..\images\icon-complete.svg" alt="check-mate">
+    <div id="ty">THANK YOU!</div>
+    <div id="ty2">We've added your card details</div>
+    <input type="button" class="submit" id="submit002" value="Continue">
+  </div>
+  </div>
+
+  
+
+
+<script src="default.js"></script>
+  
+</body>
+</html>
